@@ -1,8 +1,8 @@
 # GPU Power and Temperature Monitoring with CUDA and NVML
 
-In human beings, productivity tends to decline as temperatures rise. It would seem reasonable to expect a GPU to exhibit similar behavior, slowing down as its temperature increases. However, GPUs maintain their performance levels regardless of temperature, with the cooling fan working overtime to keep the device within a safe temperature range.
+For us, human beings, productivity tends to decline as temperatures is on the rise. It feels to me reasonable to expect that GPU to exhibit similar behavior, slowing down as its temperature increases. However, experiments show that GPU maintain their performance levels regardless of temperature, with the cooling fan working overtime to keep the device within a safe temperature range.
 
-This repository contains a CUDA program designed to fully load the GPU for 10 minutes, measuring temperature increase, power consumption, and matrix calculations per second. The program leverages the NVIDIA Management Library (NVML) to monitor the GPU's temperature and power consumption in real time.
+This repository contains a CUDA program for this experiment and is designed to fully load the GPU for 10 minutes, measuring temperature increase, power consumption, and matrix calculations per second. The program leverages the NVIDIA Management Library (NVML) to monitor the GPU's temperature and power consumption in real time.
 
 ## Requirements
 
