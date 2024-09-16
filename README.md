@@ -15,7 +15,7 @@ This repository contains a CUDA program for this experiment and is designed to f
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/gpu-temp-monitor.git
+    gh repo clone leybzon/nvidia-power-and-temperature
     cd gpu-temp-monitor
     ```
 
